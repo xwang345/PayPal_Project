@@ -1,17 +1,35 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-buttons>
+        <button ion-button icon-only>
+            <ion-icon>Back</ion-icon>
+        </button>
+    </ion-buttons>
+    <ion-buttons end>
+        <button ion-button icon-only>
+            <ion-icon>Detail</ion-icon>
+        </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+    <img src="http://xiostorage.com/wp-content/uploads/2015/10/test.png" alt="test">
+    <ion-card-content>
+        <ion-card-title>
+            Here is text
+        </ion-card-title>
+    <button (click)='onLoadNewPlace()' ion-button color="secondary">Follow</button>
+    <ion-card-title>
+            Here have text
+        </ion-card-title>
+        <br />
+        <ion-card-title>
+            science
+        </ion-card-title>
+    </ion-card-content>
+    <img src="" alt="">
+    <ion-content>
+        here is description
+    </ion-content>
 </ion-content>
