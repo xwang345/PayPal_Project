@@ -10,7 +10,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { NewPlacePage } from '../pages/new-place/new-place'
+import { NewPlacePage } from '../pages/new-place/new-place';
+import { ConfirmPage } from '../pages/other-new-place/other-new-place';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NewPlacePage } from '../pages/new-place/new-place'
     ContactPage,
     HomePage,
     TabsPage,
-    NewPlacePage
+    NewPlacePage,
+    ConfirmPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { NewPlacePage } from '../pages/new-place/new-place'
     ContactPage,
     HomePage,
     TabsPage,
-    NewPlacePage
+    NewPlacePage,
+    ConfirmPage
   ],
   providers: [
     StatusBar,
