@@ -11,8 +11,9 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NewPlacePage } from '../pages/new-place/new-place';
-import { ConfirmPage } from '../pages/other-new-place/other-new-place';
+// import { ConfirmPage } from '../pages/other-new-place/other-new-place';
 
+// import { Other } from '../pages/other-new-place/other-new-place';
 @NgModule({
   declarations: [
     MyApp,
@@ -21,7 +22,7 @@ import { ConfirmPage } from '../pages/other-new-place/other-new-place';
     HomePage,
     TabsPage,
     NewPlacePage,
-    ConfirmPage
+    // ConfirmPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +36,7 @@ import { ConfirmPage } from '../pages/other-new-place/other-new-place';
     HomePage,
     TabsPage,
     NewPlacePage,
-    ConfirmPage
+    // ConfirmPage
   ],
   providers: [
     StatusBar,
